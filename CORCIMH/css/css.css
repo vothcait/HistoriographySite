@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,400i|Open+Sans:400,700&subset=latin-ext');
+
+body {
+	font-family:"Alegreya", serif;
+	font-weight:400;
+}
+
+.jumbotron {
+	background-image: url(../images/main.jpg);
+	height: 600px;
+}
+
+.btn.btn-primary.btn-lg {
+	background-color: transparent;
+	border-radius: 0;
+	border: none;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	color: #de6e33;
+	letter-spacing: 3px;
+	font-size: 24px;
+}
+
+.navbar {
+	border-radius: 0;
+	border: 0;
+	font-family:"Open Sans", serif;
+}
+
+.navbar.navbar.default .container .nav.navbar-nav li a {
+	color: white;
+}
+
+.navbar.navbar.default .container .nav.navbar-nav li a:hover {
+	background-color: #395077;
+}
+
+.navbar.navbar.default {
+	background-color: #293954;
+}
+
+h2, h3, h4 {
+	font-family:"Open Sans", sans-serif;
+}
+
+h1 {
+	color: #FFF;
+	font-family: Alegreya;
+}
+
+#about {
+	background-color:#293954;	
+}
+
+#about p {
+	color:#FFF;
+	font-size:18px;
+}
+
+#about h2 {
+	color: #de6e33;
+}
+
+#about .content.container {
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+#diss {
+	background-image: url(../images/paper.jpg);
+	padding-top: 30px;
+	padding-bottom: 50px;	
+}
+
+#diss p {
+	color:#293954;
+	font-size:16px;
+}
+
+#addinfo {
+	background-color: #de6e33;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#addinfo h3 {
+	color:#293954;
+}
+
+#addinfo p {
+	color:#FFF;
+}
+
+#toolbar {
+	background-color: #de6e33;
+}
+
+#project {
+	background-color: #293954;
+}
+
+.col-xs-3 {
+	height: 550px;
+	background-color: #FFF;
+	overflow: scroll;
+
+}
+
+.col-xs-6 {
+	height: 550px;
+	background-color: #FFF;
+	overflow: scroll;
+	overflow-x: hidden;
+
+}
+
+h4 {
+	color:#de6e33;
+}
